@@ -1,0 +1,5 @@
+print("Hello Leoben")
+ich =  input("Wie geht es dir?")
+print("Mir geht es auch gut!")
+name = input("Wie heisst du?")
+print("Schön dich zu treffen ", name)
