@@ -4,7 +4,10 @@ import random
 zufallszahl = (random.randint(1,10))
 
 titel = "Willkommen beim Zahenraten!"
-text = "Bitte versuche meine Zahl zwischen 1 und 10"
+von = int(intput("Bitte die Zufallszahl-Unterschranke festlegen: "))
+bis = int(input("Bitte die Zufallszahl-Oberschranke festlegen: "))
+text = "Bitte versuche meine Zahl zwischen ", von , " und ", bis, " zu erraten!"
+zufallszahl = (random.randint(von,bis))
 eingabeText = "Bitte eine Zahl eingeben: "
 
 print(text)
